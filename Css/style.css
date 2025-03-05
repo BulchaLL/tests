@@ -175,7 +175,7 @@ h1{
    
  }
  h2{
-   font-size: var(--big-font);
+   font-size: var(--h2-font);
    color: var(--text-color);
    
 
