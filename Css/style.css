@@ -587,7 +587,7 @@ form textarea{
 }
 
 .hero-img {
-   display: flex;
+   display: none;
    justify-content: center;
    align-items: center;
    height: auto; /* Adjust height for mobile */
