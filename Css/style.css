@@ -99,8 +99,9 @@ header{
    align-items: center; /* Center the buttons vertically */
 }
 #hireMeBtn{
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
 }
 .btns .btn2 {
    background-color: var(--second-color); /* Change background color */
