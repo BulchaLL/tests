@@ -98,7 +98,10 @@ header{
    justify-content:flex-start; /* Center the buttons horizontally */
    align-items: center; /* Center the buttons vertically */
 }
-
+#hireMeBtn{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .btns .btn2 {
    background-color: var(--second-color); /* Change background color */
    color: var(--dominant-color); /* Change text color */
