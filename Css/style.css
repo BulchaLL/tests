@@ -65,61 +65,60 @@ header{
 
 
  }
- .hero{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    margin-bottom: 2.5rem;
-    height: 500px;
-   }
- .hero-text{
-   justify-content: center;
-   align-content: center;
- }
- .h1{
-   font-size: var(--h2-font);
-   color: var(--text-color);
-   
- }
- .h2{
-   font-size: var(--big-font);
-   color: var(--text-color);
-
- }
- p{
-   font-size: 0.9rem;
-   color: var(--text-color);
-   line-height: 1.35;
-   letter-spacing: 1px;
-}
-.btns {
-   display: flex;
-   gap: 20px;
-   justify-content:flex-start; /* Center the buttons horizontally */
-   align-items: center; /* Center the buttons vertically */
-}
-#hireMeBtn{
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-}
-.btns .btn2 {
-   background-color: var(--second-color); /* Change background color */
-   color: var(--dominant-color); /* Change text color */
-   padding: 11px 19px; /* Adjust padding */
-   border-radius: 25px; /* Adjust border radius */
-   border: 2px solid var(--dominant-color); /* Add border */
-   font-weight: bold; /* Make text bold */
-   transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for hover effect */
-   display: flex; /* Display flex */
-   justify-content: center; /* Center content horizontally */
-   align-items: center; /* Center content vertically */
-}
-
-.btns .btn2:hover {
-   background-color: var(--dominant-color); /* Change background color on hover */
-   color: var(--text-color); /* Change text color on hover */
-}
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 0 20px;
+    }
+    .hero-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+      max-width: 1200px;
+    }
+    .hero-text {
+      flex: 1;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      color: #374151;
+    }
+    .description {
+      font-size: 1rem;
+      color: #6b7280;
+      margin: 20px 0;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #1d4ed8;
+    }
+    .hero-image {
+      flex: 1;
+    }
+    .hero-image img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
 .btn, .readmore{
    display: flex;
    padding: 12px 20px; /* Adjust padding */
@@ -140,17 +139,6 @@ header{
    align-items: center;
    height: 500px; /* Add this line */
    overflow: hidden; /* Add this line */
-
-
-}
-
-.hero-img img {
-   object-fit: cover; /* Add this line */
-   width: 80%;
-   height: 100%; /* Change this line */
-}
-
- 
  .about{
    margin-bottom: 50px;
    justify-content: center;
